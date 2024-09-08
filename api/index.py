@@ -2,7 +2,7 @@ from flask import Flask, request, send_from_directory
 from os.path import dirname, abspath, join
 from json import loads, dumps
 import os
-from core import search
+from .core import search
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
