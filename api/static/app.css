@@ -1,0 +1,74 @@
+:root,
+body,
+html {
+    margin: 0;
+    width: 100%
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 400
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 30px);
+    max-width: 768px;
+    margin: auto
+}
+
+.q-input,
+.submit {
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    margin: 20px
+}
+
+.q-input {
+    border-bottom: 3px solid #38b6ff;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.submit {
+    background-color: #38b6ff;
+    color: #fff
+}
+
+.submit:disabled {
+    background-color: #dbe0e5
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#error {
+    color: red
+}
+
+.result {
+    width: calc(100% - 30px);
+    max-width: 1024px;
+    display: none;
+    margin: auto
+}
+
+.result thead tr th {
+    border-bottom: 3px solid #38b6ff;
+    padding: 10px
+}
+
+.result tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid #000
+}
